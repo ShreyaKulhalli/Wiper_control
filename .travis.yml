@@ -1,8 +1,8 @@
 language: c
 sudo: false # only for faster builds
 compiler: 
- - clang
- - gcc
+ -clang
+ -gcc
 script:
-  - gcc -o Wiper_trial Wiper_trial.c
-  - ./Wiper_trial
+  -gcc -o Wiper_trial Wiper_trial.c
+  -./Wiper_trial
